@@ -34,7 +34,7 @@ npx create-cdk-react-app [app-name] [options]
 
 ### Options
 
-| Option    | Required | Default    | Description                                                                                            |
-|-----------|----------|------------|--------------------------------------------------------------------------------------------------------|
-| `--cdk`   | Optional | javascript | Either `javascript` or `typescript`. Will initialize the cdk app with the language specified.          |
-| `--react` | Optional | javascript | Either `javascript` or `typescript`. Will initialize the create react app with the language specified. |
+| Option            | Required | Description                                                                                                                      |
+|-------------------|----------|----------------------------------------------------------------------------------------------------------------------------------|
+| `--cdk`           | Optional | Either `javascript` or `typescript`. Will initialize the cdk app with the language specified. Defaults to `javascript`.          |
+| `--react`         | Optional | Either `javascript` or `typescript`. Will initialize the create react app with the language specified. Defaults to `javascript`. |
