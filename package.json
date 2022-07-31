@@ -1,0 +1,21 @@
+{
+  "name": "create-cdk-react-app",
+  "version": "1.0.0",
+  "description": "A scaffolding for React App with AWS CDK (Cloud Development Kit) projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjan Biswas",
+  "license": "MIT-0",
+  "bin": {
+    "create-cdk-react-app": "bin/index.js"
+  },
+  "dependencies": {
+    "colors-cli": "^1.0.28",
+    "log-symbols": "^4.1.0",
+    "minimist": "^1.2.6",
+    "ora": "^5.4.1",
+    "shelljs": "^0.8.5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "create-cdk-react-app",
+    "scripts":{
+      "react-app-start": "npm start -w ccra-react-app",
+      "react-app-build": "npm run build -w ccra-react-app",
+      "react-app-test": "npm run test -w ccra-react-app",
+      "react-app-eject": "npm run eject -w ccra-react-app",
+      "cdk-app-deploy": "npm run cdk deploy -w ccra-cdk-app",
+      "cdk-app-destroy": "npm run cdk destroy -w ccra-cdk-app",
+      "cdk-app-synth": "npm run cdk synth -w ccra-cdk-app",
+      "cdk-app-test": "npm run test -w ccra-cdk-app"
+    },
+    "workspaces": [
+      "ccra-react-app",
+      "ccra-cdk-app"
+    ]
+  }
