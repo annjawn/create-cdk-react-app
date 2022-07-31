@@ -1,6 +1,6 @@
 <p align="center">
-  <img width="460" height="300" src="./ccra.png">
-  <div>BUILD MODERN REACT APPS POWERED BY AWS CLOUD </div>  
+  <img width="360" src="./ccra.png">
+  <p align="center">BUILD MODERN REACT APPS POWERED BY AWS CLOUD </p>  
 </p>
 
 ---
