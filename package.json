@@ -17,5 +17,9 @@
     "minimist": "^1.2.6",
     "ora": "^5.4.1",
     "shelljs": "^0.8.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annjawn/create-cdk-react-app.git"
   }
 }

@@ -109,6 +109,8 @@ const initreact = async(react_lang) => {
 const gitinit = async(cdk_lang) => {
     const npm_config = (cdk_lang === 'typescript')? npmconfigts:npmconfig;
     const dir = (argv['_'][0])? `${argv['_'][0]}/`:'./';
+
+    const npm_v=shell.exec('npm --version', {silent:true}).stdout
     try {
         if(argv['_'][0]){
             const dirc = argv['_'][0];
@@ -117,7 +119,13 @@ const gitinit = async(cdk_lang) => {
             await exec('git init --initial-branch=main', { silent : true });
         }        
         shell.ShellString(gitignore).toEnd(`${dir}.gitignore`);
-        shell.ShellString(npm_config).toEnd(`${dir}package.json`);        
+        if(parseInt(npm_v.replace('\n','')) >= 7){
+            loginfo(`NPM version ${npm_v.replace('\n','')}. Setting npm workspaces...`)
+            shell.ShellString(npm_config).toEnd(`${dir}package.json`);
+        }else{
+            logwarn(`NPM version ${npm_v.replace('\n','')} is lower than v7. Skipping npm workspaces setup...`)
+        }
+                
         shell.ShellString(readme).toEnd(`${dir}README.md`);
     } catch (err) {
         logerror('Error ininitializing Git');
