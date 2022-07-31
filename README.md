@@ -21,10 +21,8 @@ cd my-new-app
 ```
 
 And you are off to the races into building your modern React web app with AWS backend.
-
-<p align="center">
-  <img width="700" src="./demo.gif">
-</p>
+  
+![Alt Text](https://user-images.githubusercontent.com/84933469/182047885-e9a34ece-9830-4a13-b981-d512cb637c3c.gif)
 
 ## Usage
 
