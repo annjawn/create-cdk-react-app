@@ -23,9 +23,18 @@ cd my-new-app
 And you are off to the races into building your modern React web app with AWS backend.
 
 <p align="center">
-  <img width="500" src="./demo.gif">
+  <img width="700" src="./demo.gif">
 </p>
 
+## Usage
+
 ```sh
-npx create-cdk-react-app [options]
+npx create-cdk-react-app [app-name] [options]
 ```
+
+### Options
+
+| Option    | Required | Default    | Description                                                                                            |
+|-----------|----------|------------|--------------------------------------------------------------------------------------------------------|
+| `--cdk`   | Optional | javascript | Either `javascript` or `typescript`. Will initialize the cdk app with the language specified.          |
+| `--react` | Optional | javascript | Either `javascript` or `typescript`. Will initialize the create react app with the language specified. |
