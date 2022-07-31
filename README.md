@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="360" src="./ccra.png">
+  <img width="360" src="https://user-images.githubusercontent.com/84933469/182047857-4572ae95-5ab0-488e-8ac5-cb84edae7d7c.png">
   <p align="center">BUILD MODERN REACT APPS POWERED BY AWS CLOUD </p>  
 </p>
 
