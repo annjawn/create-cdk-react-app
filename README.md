@@ -136,12 +136,14 @@ npm run cdk-app-destroy
 
 At the core of a CCRA bootstrapped project, there are three `package.json` files that work in tandem with each other to give you a great development, testing, and deployment experience.
 
+```
 ├── my-app
 │   ├── ccra-react-app
 │   │   └── package.json
 └── ccra-cdk-app
     │   └── package.json
     └── package.json
+```
 
 You may modify the `package.json` at the root of the project to customize the npm script shortcuts per your requirements. CCRA generates the following `package.json` at the root of the project, out of the box-
 
